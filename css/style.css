@@ -1,0 +1,62 @@
+.navbar-nav {
+    --bs-nav-link-hover-color: rgba(0, 0, 0, 1);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: white;
+}
+
+.navbar-nav .nav-link.active {
+    border: 1px solid #009ad8;
+    border-radius: 40%;
+    color: #009ad8;
+}
+
+.navbar-nav .nav-item:hover {
+    border: 1px solid #009ad8;
+    border-radius: 40%;
+    color: #009ad8;
+}
+
+.nav-item a:hover {
+    color: #009ad8;
+}
+
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+.head {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.content {
+    background: #323544;
+}
+
+.middle {
+    background-color: #262936;
+}
+
+.bt {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    background: #009ad8;
+    border-radius: 30px;
+    color: white;
+}

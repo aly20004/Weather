@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+        <a class="navbar-brand" href="#">Weather</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Live Camera</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div class="container mt-5">
+        <form class="find-location position-relative">
+            <input type="text" placeholder="Find your location..." id="search"
+                class="rounded-pill border-1 border-black form-control position-relative">
+            <input type="button" value="Find" id="submit" class="bt">
+        </form>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 content p-0">
+                <div class="inner">
+                    <div class="d-flex justify-content-between align-items-center head ">
+                        <h4 id="currentDay">satuerday</h4>
+                        <h4 id="currentMonth">2July</h4>
+                    </div>
+                    <div class="px-3 py-5">
+                        <p id="currentLocation">jgj</p>
+                        <h2 id="currentTemp" class="fw-bold fs-1">hjgug</h2>
+                        <img src="" class="img-fluid" id="currentImg" alt="">
+                        <p id="sun" class="text-info">hfhf</p>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <i class=" fa-solid fa-umbrella mx-2">
+                                <span id="currentHum"></span>
+                            </i>
+                            <i class="fa-solid fa-wind mx-2">
+                                <span id="currentWind"></span>
+                            </i>
+                            <i class="fa-solid fa-location-crosshairs mx-2">
+                                <span id="currentDir">East</span>
+                            </i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 middle p-0">
+                <div class="inner text-center">
+                    <div class="d-flex justify-content-around align-items-center head ">
+                        <h4 class="currentDay">satuerday</h4>
+                        <h4 class="currentMonth">2July</h4>
+                    </div>
+                    <div class="py-3">
+                        <h2 class="currentTemp">hjgug</h2>
+                        <img src="" class="img-fluid currentImg" alt="">
+                        <p class="textt text-info">hfhf</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 content p-0">
+                <div class="inner text-center">
+                    <div class="d-flex justify-content-around align-items-center head">
+                        <h4 class="currentDay">satuerday</h4>
+                        <h4 class="currentMonth">2July</h4>
+                    </div>
+                    <div class="py-3">
+                        <h2 class="currentTemp">hjgug</h2>
+                        <img src="" class="img-fluid currentImg" alt="">
+                        <p class="textt text-info">hfhf</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
